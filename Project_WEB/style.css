@@ -1,0 +1,328 @@
+#menu{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main{
+    clear:both;
+    float: left;
+    
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin-left: 20px;
+    margin-right: 20px;
+	padding: 0;
+    transition: 1s;
+    border-radius: 5px;
+
+}
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+    margin: 30px;
+    
+    
+}
+
+ li:hover {
+    transition: 1s;
+    font-size: larger;
+  }
+
+#tittle{
+    font-size: xx-large;
+}
+
+	
+    
+    
+.left {
+float: left;
+width:50%;
+height:100%;
+}
+
+.right{
+float: right;
+width:50%;
+height: 100%;}
+
+p{
+    
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 15px;;
+    
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    clear:both; 
+    margin-top:20px;
+    margin-bottom:0px;
+    background: rgba(136,136,136,.8);
+    color: #fff;
+  }
+
+  #main_txt{
+    margin: 20px;
+  }
+
+  form{
+    background-image: url('pitch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    margin-left: 12px;
+    margin-right: 12px;;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="password"] {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+
+button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #ccc;
+  cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+  }
+
+button:hover {
+  background-color: #555;
+}
+
+a {
+    text-decoration: none; 
+    transition: 0.6s;
+    color:black;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    transition: 0.6s;
+  }
+
+  a:active {
+    text-decoration: underline;
+    color:green;
+    transition: 0.6s;
+  }
+
+  a:visited{
+    text-decoration: none; 
+    color: black;}
+
+.icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+      }
+
+.icon_big{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+      }
+
+h1 {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+h2 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      
+h3 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 10px;
+      }
+      
+
+
+.main_txt {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+  }
+
+  .login-form{
+    padding-left: 250px;
+    padding-right:250px;
+  }
+
+  label {
+    display: block;
+    background-color: transparent;
+  }
+
+  .h1_log{
+    border-radius: 15px;
+    border: 3px solid #ccc;
+    background-color: rgba(85, 86, 86);
+  }
+
+  #a_sign{
+    text-decoration: none;
+    color: chocolate; 
+    
+    cursor: default;
+    background-color: transparent;
+  }
+
+#map{
+border: 2px dashed black;
+margin: 0 auto;
+padding-right: 10px;
+}
+
+#search_area{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#weather-forecast{
+    width: 50%;
+  margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+/* 
+CSS FOR BLOCKS OF WEATHER, IT COULD NOT WORKS OR LOOKS LIITLE WEIRD BUT I DONT SEE THIS UNTIL JS WILL BE THERE XD
+*/
+
+#weather-search-params
+{
+    
+    text-align: center;
+    margin: 15px auto;
+ 
+
+}
+
+.weather-date, .weather-block, .weather-description, .weather-icon, .weather-temperature, .weather-temperature-feels-like
+{
+    background-color: rgb(249, 136, 136);
+    
+}
+
+.weather-block {
+    display: block;
+    width: 350px;
+    height: 130px;
+    border: 4px solid white;
+    position: relative;
+    margin: 15px auto;
+    text-align: left;
+    border-radius: 10px;
+    
+}
+
+.weather-block:nth-child(odd)
+{
+    border-color: black;
+}
+
+.weather-date {
+    font-weight: bold;
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.weather-icon {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100px;
+    height: 90px;
+}
+
+.weather-temperature {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.weather-temperature-feels-like {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+}
+
+.weather-description {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+}
+
+
+
+#weather-results-container-for {
+    display: grid;
+    grid-template-columns: 355px repeat(2, 1fr);
+    grid-column-gap: 20px;
+    max-width: 100%;
+    margin: 50px;
+    text-align: center;
+    
+}

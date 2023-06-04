@@ -1,2 +1,3 @@
 # Web_Programming_Project
-'index.html' is a main and home page.
+https://master.d2bnqxdb8wsnhe.amplifyapp.com/login.html
+

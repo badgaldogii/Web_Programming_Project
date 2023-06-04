@@ -1,0 +1,23 @@
+body 
+{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+*
+ {
+  box-sizing: border-box;
+  font-family: "Rockwell", sans-serif;
+  background-color: rgb(75, 148, 144);
+  
+}
+
+body 
+{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
